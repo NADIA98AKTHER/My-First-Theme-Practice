@@ -87,7 +87,7 @@ get_header();
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <div class="con">
 
-  <div class="row">
+  <div class="col-xs-6">
   <?php 
       while(have_posts()){
 
@@ -96,34 +96,38 @@ get_header();
     
     ?>
     <div class="col">
+    
       <div class="grid">
+      
       <img class="prec" src="<?php echo $imagepath[0]?>">
       <div class="grid_content">
 
       <div class="ecom">
-         <p class="ecom_t"> Ecommerce</p>
+         <p class="ecom_t"><?php the_category();?></p>
          
       </div>
       <p class="ecom_t2"><?php the_title();?></p>
          <div class="ecom_t3"><?php the_content();?>
-    </div>
-
-       
- 
+        </div>
+  
+        
 
       </div>
+    
       </div>
+  
     </div>
+    
+    
+
+   
     <?php } ?>
     
 
    
-    
-    
-
-
+   
   </div>
-
+  
 </div>
 
 
