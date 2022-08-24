@@ -85,24 +85,30 @@ get_header();
     </div>
     
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<div class="container">
+<div class="con">
 
   <div class="row">
-    <?php 
+  <?php 
       while(have_posts()){
 
       the_post();
+      $imagepath= wp_get_attachment_image_src(get_post_thumbnail_id(),'large');
     
     ?>
     <div class="col">
       <div class="grid">
-      <img class="prec" src="<?php echo get_template_directory_uri();?>/images/unsplash_IgUR1iX0mqM.png">
+      <img class="prec" src="<?php echo $imagepath[0]?>">
       <div class="grid_content">
+
       <div class="ecom">
-      <p class="ecom_t"> Ecommerce</p>
-      <p class="ecom_t2"><?php the_title();?></p>
-      <p class="ecom_t3"><?php the_title();?></p>
+         <p class="ecom_t"> Ecommerce</p>
+         
       </div>
+      <p class="ecom_t2"><?php the_title();?></p>
+         <div class="ecom_t3"><?php the_content();?>
+    </div>
+
+       
  
 
       </div>
@@ -117,6 +123,7 @@ get_header();
 
 
   </div>
+
 </div>
 
 
