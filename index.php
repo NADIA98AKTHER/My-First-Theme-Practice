@@ -123,14 +123,19 @@ get_header();
    
     <?php } ?>
     
-
+    <div>
    
    
   </div>
   
 </div>
 
-
+<div class="Page">
+    <div class="pagination">
+        <?Php next_posts_link(); ?>
+       <?php previous_posts_link(); ?>
+    </div>
+      </div>
 <?php
 get_footer();
 ?>
