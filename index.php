@@ -43,8 +43,22 @@ get_header();
             </div>
 
         </div>
+        <!----->
+       <div class="col">
+    
+      <div class="grid">
+      
+      <img class="prec" src="<?php echo $imagepath[0]?>">
+      <div class="grid_content">
+
+      <div class="ecom">
+         <p class="ecom_t"><?php the_category();?></p>
+         
+      </div>
+
+      <!---->
     </div>
-    <div class="Frame_32_2">
+    <div class="Frame_31">
         <img class="Frame_31_img1" src="<?php echo get_template_directory_uri();?>/images/unsplash_376KN_ISplE.png">
         <div class="Frame_35">
             <div class="Frame_32">
@@ -107,13 +121,15 @@ get_header();
          
       </div>
       <p class="ecom_t2"><?php the_title();?></p>
-         <div class="ecom_t3"><?php the_content();?>
+         <div class="ecom_t3"><?php the_excerpt();?>
+         <div class="readmore">
+      <a href="<?php the_permalink();?>"><input type="button" value="Read More" name=""></a>
+      </div>
         </div>
-  
-        
+       
 
       </div>
-    
+      
       </div>
   
     </div>
