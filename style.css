@@ -2667,6 +2667,15 @@ flex-grow: 0;
     overflow-wrap: break-word;
     
 }
+.readmore {
+    padding-top: 20px;
+}
+input[type="button"] {
+    color: #ae005e;
+    border: none;
+    background: white;
+    font-weight: bold;
+}
 .grid_content {
     display: flex;
     flex-direction: column;
@@ -2722,7 +2731,72 @@ border-radius: 8px;
     top: 30px;
 }
   
-
+/*single.php*/
+.single {
+    width: 1085px;
+    height: 500px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+.single_con{
+    width: 1085px;
+    position: relative;
+    
+}
+.single_titlte {
+    color: #AE005E;
+    font-weight: 400;
+    font-size: 44px;
+    text-align: center;
+    justify-content: center;
+}
+.single_content {
+    font-size: 20px;
+    color: black;
+}
+img.img_single {
+    top: 30px;
+    position: relative;
+}
+.single_content {
+    font-size: 20px;
+    position: relative;
+    top: 70px;
+}
+.author {
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+    color: #AE005E;
+    font-weight:bold;
+    
+}
+.date {
+    position: relative;
+    top: 50px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    color: orangered;
+}
+/*Form */
+.form {
+    background: beige;
+    position: relative;
+    top: 130px;
+    font-size: 20px;
+    display: block;
+}
+textarea#comment {
+    position: relative;
+    top: 110px;
+}
+label.label_name {
+    position: relative;
+    right: 80px;
+    top: 120px;
+}
 /*Footer*/
 .Frame_43{
     display: flex;
