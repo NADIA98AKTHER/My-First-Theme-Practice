@@ -31,23 +31,19 @@ get_header();
 
 
     </div>
-
-    <div class="Frame_31">
-        <img class="Frame_31_img1" src="<?php echo get_template_directory_uri(); ?>/images/unsplash_h8CYq5InIAI.png">
-        <div class="Frame_35"> 
-            
-            <div class="Frame_32">
-            <p class="Ecoomerce">Ecommerce</p>
-            <p class="Frame_32_t1">Why Your Website Speed Should Matter</p>
-            <p class="Frame_32_t2">Starting a business? Launching your dream product? You must...</p>
-            </div>
-
-        </div>
-        <!----->
-       <div class="col">
+   
+    <div class="col">
+    <?php 
+     $imagepath= wp_get_attachment_image_src(get_post_thumbnail_id(),'large');
     
-      <div class="grid">
+    get_sidebar();
+     
+   ?>
       
+      <div class="grid">
+     
+
+ 
       <img class="prec" src="<?php echo $imagepath[0]?>">
       <div class="grid_content">
 
@@ -55,24 +51,22 @@ get_header();
          <p class="ecom_t"><?php the_category();?></p>
          
       </div>
-
-      <!---->
-    </div>
-    <div class="Frame_31">
-        <img class="Frame_31_img1" src="<?php echo get_template_directory_uri();?>/images/unsplash_376KN_ISplE.png">
-        <div class="Frame_35">
-            <div class="Frame_32">
-            <p class="Ecoomerce">Ecommerce</p>
-            <p class="Frame_32_t1">Why you should have a booking extension on your website </p>
-            <p class="Frame_32_t3">Starting a business? Launching your dream product? You must...</p>
-            </div>
-
+      <p class="ecom_t2"><?php the_title();?></p>
+         <div class="ecom_t3"><?php the_excerpt();?>
+         <div class="readmore">
+      <a href="<?php the_permalink();?>"><input type="button" value="Read More" name=""></a>
+      </div>
         </div>
+       
 
+      </div>
+    
+      </div>
+   
     </div>
-    
-    
-    
+  
+
+    <div>
 
 </div>
 
@@ -133,10 +127,6 @@ get_header();
       </div>
   
     </div>
-    
-    
-
-   
     <?php } ?>
     
     <div>
