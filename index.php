@@ -6,8 +6,8 @@ get_header();
 <div class="resource">
     <div class="Frame_56">
         <div class="Frame_15_resource">
-           <p class="Frame_15_t1"> Resources for WooCommerce Store Owners</p>
-           <p class="Frame_15_t2">Tips, tricks and eCommerce inspiration from WooCommerce experts.</p>
+           <p class="Frame_15_t1"><?php ();?></p>
+           <p class="Frame_15_t2"><?php the_content();?></p>
         </div>
         <div class="Frame_55">
             <div class="Frame_54_resource">
@@ -33,42 +33,55 @@ get_header();
     </div>
    
     <div class="col">
-    <?php 
-     $imagepath= wp_get_attachment_image_src(get_post_thumbnail_id(),'large');
-    
-    get_sidebar();
-     
-   ?>
-      
-      <div class="grid">
-     
+    <?php
 
- 
-      <img class="prec" src="<?php echo $imagepath[0]?>">
-      <div class="grid_content">
+$the_query = new WP_Query( 'posts_per_page=2' ); ?>
+  
+<?php
 
-      <div class="ecom">
-         <p class="ecom_t"><?php the_category();?></p>
-         
-      </div>
-      <p class="ecom_t2"><?php the_title();?></p>
-         <div class="ecom_t3"><?php the_excerpt();?>
-         <div class="readmore">
-      <a href="<?php the_permalink();?>"><input type="button" value="Read More" name=""></a>
-      </div>
-        </div>
-       
+while ($the_query -> have_posts()) : $the_query -> the_post();
 
-      </div>
-    
-      </div>
-   
-    </div>
+$imagepath= wp_get_attachment_image_src(get_post_thumbnail_id(),'large');
+?>
   
 
-    <div>
+    <div class="grid">
+     
+      
+ 
+     <img class="prec" src="<?php echo $imagepath[0]?>">
+     <div class="grid_content">
+
+     <div class="ecom">
+        <p class="ecom_t"><?php the_category();?></p>
+        
+     </div>
+     <p class="ecom_t2"><?php the_title();?></p>
+        <div class="ecom_t3"><?php the_excerpt();?>
+        <div class="readmore">
+     <a href="<?php the_permalink();?>"><input type="button" value="Read More" name=""></a>
+     </div>
+       </div>
+      
+
+     </div>
+   
+     </div>
+  
+   </div>
+ 
+
+   <div>
+<?php
+endwhile;
+wp_reset_postdata();
+?>
+      
+    
 
 </div>
+
+
 
 <!--------Blog----------->
 <div class="Frame_63">
