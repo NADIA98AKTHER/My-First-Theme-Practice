@@ -41,5 +41,5 @@ register_sidebar(
         'id'=> 'widget'
     )
     );
-
+add_theme_support('custom-background')
 ?>
