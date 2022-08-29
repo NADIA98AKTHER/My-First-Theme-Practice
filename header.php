@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title><?php bloginfo('name'); ?><?php wp_title(); ?> <?php if (is_front_page()){echo
+         " | "; bloginfo('description'); } ?></title>
    
     <link rel="stylesheet" href=" <?php echo get_template_directory_uri(); ?>/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 </head>
-<body>
+<body <?php body_class();?>>
 
 
     <!--------Header----->
