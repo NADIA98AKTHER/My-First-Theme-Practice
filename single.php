@@ -22,8 +22,10 @@ the_post();
     <div class="single_content">
         <p class="single_content_blog"><?php the_content();?></p>
     </div>
+    
     <div class="form">
-    <?php comment_form();?>
+      
+    <?php comments_template();?>
     </div>
   </div>
   </div> 
