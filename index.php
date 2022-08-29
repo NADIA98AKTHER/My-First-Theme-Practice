@@ -1,12 +1,13 @@
 <?php
 
 get_header();
+
 ?>
 <!-------Resource--------->
 <div class="resource">
     <div class="Frame_56">
         <div class="Frame_15_resource">
-           <p class="Frame_15_t1"><?php ();?></p>
+           <p class="Frame_15_t1"><?php the_title();?></p>
            <p class="Frame_15_t2"><?php the_content();?></p>
         </div>
         <div class="Frame_55">
@@ -89,21 +90,38 @@ wp_reset_postdata();
        <div class="Frame_58">
         <p class="Frame_58_t1">All</p>
        </div>
-       <div class="Frame_59">
-        <p class="Frame_59_t1">eCommerce </p>
-       </div>
-       <div class="Frame_60_1">
-        <p class="Frame_60_1_t1">eCommerce Website</p>
-       </div>
-       <div class="Frame_61_1">
-        <p class="Frame_61_1_t1">WooCommerce Booking </p>
-       </div>
-       <div class="Frame_62_1">
-        <p class="Frame_62_1_t1">WooCommerce Booking </p>
-       </div>
+       <div class="con2">
+      <div class="cat">
+         
+     
+      <div class="col-xs-7">
        
+       <div class="Frame_59">
+          
+       <?php 
+       while(have_posts()) : the_category();
+         the_category();
+       
+       ?>
+        <p class="Frame_59_t1"><?php the_category();?></p>
+       <?php endwhile;
+       get_categories();
+       ?>
+        </div>
+       
+      
+      </div>
+
+     
+      
+
+      
+</div>
+
+</div>
 
     </div>
+
     
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <div class="con">
