@@ -10,9 +10,9 @@ get_header();
 <div class="container">
     <div class="Frame_11">
        <div class="Frame_15">
-         <p class="text1">Plugins Trusted by 1 Million+ WordPress Developers</p>
+         <div class="text1"><?php the_content();?></div>
        
-          <p class="text2">Come and Explore the best of WordPress and WooCommerce extensions that will help your websites and businesses thrive</p>
+          <p class="text2"></p>
        </div>
        <!----buttton-->
        
