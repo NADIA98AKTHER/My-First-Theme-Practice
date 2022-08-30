@@ -7,7 +7,7 @@ get_header();
 <div class="resource">
     <div class="Frame_56">
         <div class="Frame_15_resource">
-           <p class="Frame_15_t1"><?php the_title();?></p>
+           <p class="Frame_15_t1"><?php the_content();?></p>
            <p class="Frame_15_t2"><?php the_content();?></p>
         </div>
         <div class="Frame_55">
@@ -95,21 +95,19 @@ wp_reset_postdata();
          
      
       <div class="col-xs-7">
-       
+      <?php 
+     $category=get_terms(['taxonomy'=>'category']);
+
+     foreach($category as $categoryData){
+      ?>
        <div class="Frame_59">
           
-       <?php 
-       while(have_posts()) : the_category();
-         the_category();
-       
-       ?>
-        <p class="Frame_59_t1"><?php the_category();?></p>
-       <?php endwhile;
-       get_categories();
-       ?>
+    
+        <a href="<?php echo get_category_link($categoryData->term_id);?>"><div class="Frame_59_t1"><?php echo $categoryData->name?></div>
+      
         </div>
        
-      
+        <?php } ?>
       </div>
 
      
@@ -123,7 +121,7 @@ wp_reset_postdata();
     </div>
 
     
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <div class="con">
 
   <div class="col-xs-6">
@@ -131,13 +129,12 @@ wp_reset_postdata();
       while(have_posts()){
 
       the_post();
-      $imagepath= wp_get_attachment_image_src(get_post_thumbnail_id(),'large');
+      $imagepath=wp_get_attachment_image_src(get_post_thumbnail_id(),'large');
     
     ?>
     <div class="col">
     
-      <div class="grid">
-      
+      <div class="grid">  
       <img class="prec" src="<?php echo $imagepath[0]?>">
       <div class="grid_content">
 
