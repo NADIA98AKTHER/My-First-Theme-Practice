@@ -99,9 +99,8 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
-.text1 {
+.text1{
     width: 400px;
-    height: 156px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
@@ -113,7 +112,7 @@ flex-grow: 0;
     flex-grow: 0;
 }
 .text2 {
-    height: 44px;
+    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -123,7 +122,8 @@ flex-grow: 0;
     flex: none;
     order: 1;
     flex-grow: 0;
-    padding-top: 20px;
+    position: relative;
+    top: 15px;
 }
 
 .Frame_14{
@@ -2451,13 +2451,11 @@ position: absolute;
 }
 .con2 {
     position: relative;
-    background: beige;
     left: 120px;
     bottom: 35px;
     width: 800px;
     height: 35px;
-    /* gap: 20px; */
-    background: red;
+   
 }
 .col-xs-7 {
     display: flex;
@@ -2467,11 +2465,7 @@ position: absolute;
     flex-wrap: wrap;
    
 }
-.cat {
-  
-    background: beige;
- 
-}
+
 
 .Frame_59 {
     box-sizing: border-box;
