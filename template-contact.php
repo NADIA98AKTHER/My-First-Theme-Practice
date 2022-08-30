@@ -11,11 +11,11 @@ get_header();
     <div class="Frame_68">
         <div class="Group2">
             <diV class="text1_">
-                <p class="Group2_text1">Get in touch</p>
+                <p class="Group2_text1"><?php the_content();?></p>
 
             </diV>
             <diV class="text2_">
-                <p class="Group2_text2">Fill the form and we will get back to you soon </p>
+                <p class="Group2_text2"><?php the_content(); ?></p>
 
             </diV>
 
