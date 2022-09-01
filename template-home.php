@@ -10,9 +10,9 @@ get_header();
 <div class="container">
     <div class="Frame_11">
        <div class="Frame_15">
-         <div class="text1"><?php the_content();?></div>
+         <div class="text1"><?php dynamic_sidebar('home_content1');?></div>
        
-          <p class="text2"></p>
+         
        </div>
        <!----buttton-->
        
@@ -67,7 +67,7 @@ get_header();
 <!-----------Logo----------->
 
 <div class="Frame_18">
-    <p class="Text3">We Are Featured At</p>
+    <div class="Text3"><?php dynamic_sidebar('Featured At');?></div>
     <div class="Frame_19">
         <div id="paypal-seeklogo.com1">
             <img class="paypal1" src="<?php echo get_template_directory_uri(); ?>/images/paypal-seeklogo.com 1.png">
@@ -101,8 +101,8 @@ get_header();
 <div class="Frame_26">
     
     <div class="Frame_15_2nd">
-        <p class="Figma_15_text1">Our Featured Plugins</p>
-        <p class="Figma_15_text2">Designed for the best experience and developed to serve the most powerful eCommerce websites</p>
+        <div class="Figma_15_text1"><?php dynamic_sidebar('Featured plugin');?></div>
+        
 
     </div>
     <div id="Figma_27">
