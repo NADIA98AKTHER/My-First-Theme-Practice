@@ -7,8 +7,8 @@ get_header();
 <div class="resource">
     <div class="Frame_56">
         <div class="Frame_15_resource">
-           <p class="Frame_15_t1"><?php the_content();?></p>
-           <p class="Frame_15_t2"><?php the_content();?></p>
+           <div class="Frame_15_t1"><?php dynamic_sidebar('blog_content1');?></div>
+          
         </div>
         <div class="Frame_55">
             <div class="Frame_54_resource">
@@ -139,7 +139,7 @@ wp_reset_postdata();
       <div class="grid_content">
 
       <div class="ecom">
-         <p class="ecom_t"><?php the_category();?></p>
+         <p class="ecom_t"><?php the_category(); ?></p>
          
       </div>
       <p class="ecom_t2"><?php the_title();?></p>
