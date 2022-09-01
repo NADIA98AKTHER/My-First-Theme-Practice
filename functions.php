@@ -3,6 +3,12 @@ register_nav_menus(
     array('Primary-Menu'=>'Top Menu')
    
 ) ;
+register_nav_menus( 
+   
+   
+) ;
+
+
 
 
 function themename_custom_logo_setup() {
@@ -43,3 +49,75 @@ register_sidebar(
     );
 add_theme_support('custom-background')
 ?>
+
+<?php 
+register_sidebar(
+    array(
+        'name' =>"footer1",
+        'id'=> 'footer1',
+        'description' =>_('Appears in the footer',)
+    )
+    );
+add_theme_support('custom-background')
+?>
+<?php 
+register_sidebar(
+    array(
+        'name' =>"footer2",
+        'id'=> 'footer2',
+        'description' =>_('Appears in the footer',)
+    )
+    );
+add_theme_support('custom-background')
+?>
+<?php 
+register_sidebar(
+    array(
+        'name' =>"footer3",
+        'id'=> 'footer3',
+        'description' =>_('Appears in the footer',)
+    )
+    );
+add_theme_support('custom-background')
+?>
+<?php 
+register_sidebar(
+    array(
+        'name' =>"footer4",
+        'id'=> 'footer4',
+        'description' =>_('Appears in the footer',)
+    )
+    );
+add_theme_support('custom-background')
+?>
+<?php 
+register_sidebar(
+    array(
+        'name' =>"footer7",
+        'id'=> 'footer7',
+        'description' =>_('Appears in the footer',)
+    )
+    );
+add_theme_support('custom-background')
+?>
+<?php 
+register_sidebar(
+    array(
+        'name' =>"footer5",
+        'id'=> 'footer5',
+        'description' =>_('Appears in the footer',)
+    )
+    );
+add_theme_support('custom-background')
+?>
+<?php 
+register_sidebar(
+    array(
+        'name' =>"footer6",
+        'id'=> 'footer6',
+        'description' =>_('Appears in the footer',)
+    )
+    );
+add_theme_support('custom-background')
+?>
+
