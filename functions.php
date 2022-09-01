@@ -47,10 +47,8 @@ register_sidebar(
         'id'=> 'widget'
     )
     );
-add_theme_support('custom-background')
-?>
 
-<?php 
+ 
 register_sidebar(
     array(
         'name' =>"footer1",
@@ -58,9 +56,7 @@ register_sidebar(
         'description' =>_('Appears in the footer',)
     )
     );
-add_theme_support('custom-background')
-?>
-<?php 
+
 register_sidebar(
     array(
         'name' =>"footer2",
@@ -68,9 +64,7 @@ register_sidebar(
         'description' =>_('Appears in the footer',)
     )
     );
-add_theme_support('custom-background')
-?>
-<?php 
+
 register_sidebar(
     array(
         'name' =>"footer3",
@@ -78,9 +72,7 @@ register_sidebar(
         'description' =>_('Appears in the footer',)
     )
     );
-add_theme_support('custom-background')
-?>
-<?php 
+
 register_sidebar(
     array(
         'name' =>"footer4",
@@ -88,9 +80,7 @@ register_sidebar(
         'description' =>_('Appears in the footer',)
     )
     );
-add_theme_support('custom-background')
-?>
-<?php 
+
 register_sidebar(
     array(
         'name' =>"footer7",
@@ -98,9 +88,8 @@ register_sidebar(
         'description' =>_('Appears in the footer',)
     )
     );
-add_theme_support('custom-background')
-?>
-<?php 
+
+
 register_sidebar(
     array(
         'name' =>"footer5",
@@ -108,9 +97,8 @@ register_sidebar(
         'description' =>_('Appears in the footer',)
     )
     );
-add_theme_support('custom-background')
-?>
-<?php 
+
+
 register_sidebar(
     array(
         'name' =>"footer6",
@@ -118,6 +106,42 @@ register_sidebar(
         'description' =>_('Appears in the footer',)
     )
     );
-add_theme_support('custom-background')
+
+
+register_sidebar(
+    array(
+        'name' =>"blog_conten1",
+        'id'=> 'blog_content1',
+        'description' =>_('Appears in the sidebar',)
+    )
+    );
+
+ 
+register_sidebar(
+    array(
+        'name' =>"home_conten1",
+        'id'=> 'home_content1',
+        'description' =>_('Appears in the sidebar',)
+    )
+    );
+
+
+
+register_sidebar(
+    array(
+        'name' =>"Featured At",
+        'id'=> 'Featured At',
+        'description' =>_('Appears in the sidebar',)
+    )
+    );
+
+register_sidebar(
+        array(
+            'name' =>"Featured plugin",
+            'id'=> 'Featured plugin',
+            'description' =>_('Appears in the sidebar',)
+        )
+        );
+
 ?>
 
