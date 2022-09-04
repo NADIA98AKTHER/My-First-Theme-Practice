@@ -126,7 +126,6 @@ register_sidebar(
     );
 
 
-
 register_sidebar(
     array(
         'name' =>"Featured At",
@@ -142,6 +141,54 @@ register_sidebar(
             'description' =>_('Appears in the sidebar',)
         )
         );
-
+ register_sidebar(
+            array(
+                'name' =>"home_conten1_image",
+                'id'=> 'home_content1_image',
+                'description' =>_('Appears in the sidebar',)
+            )
+    );
+register_sidebar(
+        array(
+            'name' =>"Addon_list",
+            'id'=>'Addon_list',
+            'description' =>_('Appears in the sidebar',)
+        )
+);
+register_sidebar(
+    array(
+        'name' =>"Phone",
+        'id'=>'Phone',
+        'description' =>_('Appears in the sidebar',)
+    )
+);
+register_sidebar(
+    array(
+        'name' =>"Heading",
+        'id'=>'Heading',
+        'description' =>_('Appears in the sidebar',)
+    )
+);
+register_sidebar(
+    array(
+        'name' =>"Add",
+        'id'=>'Add',
+        'description' =>_('Appears in the sidebar',)
+    )
+);
+register_sidebar(
+    array(
+        'name' =>"Addon_list",
+        'id'=>'Addon_list',
+        'description' =>_('Appears in the sidebar',)
+    )
+);
+register_sidebar(
+    array(
+        'name' =>"social",
+        'id'=>'social',
+        'description' =>_('Appears in the sidebar',)
+    )
+);  
 ?>
 
