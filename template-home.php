@@ -50,11 +50,7 @@ get_header();
 <div class="Frame_16">
  
  
-  <div class="Group1">
- 
-      <img class="group1_img" src="<?php echo get_template_directory_uri(); ?>/images/Group 1.png">
-      <img class="image2" src="<?php echo get_template_directory_uri(); ?>/images/image 2.png">
- <img class="image1" src="<?php echo get_template_directory_uri(); ?>/images/image 1.png">
+      <?php dynamic_sidebar('home_content1_image');?>
    
 
   </div>
@@ -105,37 +101,23 @@ get_header();
         
 
     </div>
-    <div id="Figma_27">
-
-      <div id="#browser">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/Browser.png">
-
-
-      </div>
-      <div class="Device">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/Device.png">
-
-      </div>
-
-    </div>
     <div class="Frame_25">
         <div class="Frame_22">
          <div class="Frame_21">
-            <div id="bicalendar-check">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/Group.png">
-
+            <div class="bicalendar-check">
+                <div class="heading"><?php dynamic_sidebar('Addon_list');?></div>
+           
             </div>
-            <div class="Frame_19_2nd">
-                <p class="Frame_19_text1">WooCommerce Booking</p>
-                <p class="Frame_19_text2">Our booking add-on is absolutely simple and straightforward. It allows you to create a bookable product absolutely free.</p>
 
-            </div>
+             
+
+           
             
 
         
          </div>
          <div class="Frame_21">
-            <div id="bicalendar-check">
+            <div class="bicalendar-check">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/Group.png">
 
             </div>
