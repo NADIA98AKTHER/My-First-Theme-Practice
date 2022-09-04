@@ -255,46 +255,13 @@ flex-grow: 0;
 .Login :hover{
     color: #FFFFFF;
 }
-
 .Frame_16 {
-    position: absolute;
-    width: 518px;
-    height: 309px;
-    left: 400px;
-    top: 190px;
+    position: relative;
+    /* width: 718px; */
+    left: 920px;
+    top: 110px;
 }
-.image2{
-    position: absolute;
-width: 351px;
-height: 361px;
-left: 485px;
-top: 0px;
-background: url(image.png);
-filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198)) drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035)) drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725)) drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
-}
-.image1{
-    position: absolute;
-width: 400px;
-height: 388px;
-left: 70px;
-top: 120px;
-background: url(image.png);
-filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198)) drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035)) drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725)) drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
-}
-.Group1{
-    
-position: absolute;
-width: 400px;
-height: 304px;
-left: 170px;
-top: 40px;
-}
-.group1_img {
-    width: 430px;
-    padding-left: 260px;
 
-    height: 340px;
-}
 .Frame_18{
     display: flex;
 flex-direction: row;
@@ -380,19 +347,13 @@ top: 830px;
 background: linear-gradient(180deg, rgba(96, 46, 73, 0.05) 0%, rgba(96, 46, 73, 0) 35.93%);
 }
 
-.Frame_15_2nd{
+.Frame_15_2nd {
     display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 15px;
-
-position: absolute;
-width: 620px;
-height: 116px;
-left: 540px;
-top: 100px;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    width: 620px;
+    left: 540px;
 }
 .Figma_15_text1 {
     width: 711px;
@@ -408,7 +369,7 @@ top: 100px;
     position: relative;
 
 }
-.Figma_15_text1 p{
+.Figma_15_text1 p {
     width: 600px;
     height: 44px;
     font-family: 'Inter';
@@ -422,37 +383,15 @@ top: 100px;
     order: 1;
     flex-grow: 0;
     position: relative;
-    /* text-align: center; */
     right: 50px;
-    top: 30px;
+    top: 120px;
 }
 
 /* featured image */
-#Figma_27{
-    position: absolute;
-    width: 944px;
-    height: 585px;
-    left: 250px;
-    top: 280px;
-    left: 270px;
-}
-
-#browser{
-    position: absolute;
-width: 900px;
-height: 450px;
-left: 0px;
-top: 0px;
-
-}
-.Device{
-    position: absolute;
-width: 330px;
-height: 449.04px;
-left: 620px;
-top: 106px;
-
-filter: drop-shadow(0px 51.9722px 41.5777px rgba(0, 0, 0, 0.07)) drop-shadow(0px 21.7127px 17.3702px rgba(0, 0, 0, 0.0503198)) drop-shadow(0px 11.6087px 9.28693px rgba(0, 0, 0, 0.0417275)) drop-shadow(0px 6.50772px 5.20618px rgba(0, 0, 0, 0.035)) drop-shadow(0px 3.4562px 2.76496px rgba(0, 0, 0, 0.0282725)) drop-shadow(0px 1.4382px 1.15056px rgba(0, 0, 0, 0.0196802));
+.wp-block-image.size-full {
+    position: relative;
+    top: 120px;
+    right: 230px;
 }
 .Frame_25{
     display: flex;
@@ -492,7 +431,7 @@ padding: 0px;
 gap: 24px;
 
 width: 330px;
-height: 161px;
+height: 261px;
 
 
 /* Inside auto layout */
@@ -501,77 +440,29 @@ flex: none;
 order: 1;
 flex-grow: 0;
 }
-
-
-
-.Frame_19_2nd{
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 8px;
-
-width: 330px;
-height: 105px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+.bicalnder-check {
+    width: 340px;
+    height: 40px;
+  
 }
-.Frame_19_text1{
+
+.heading.wp-block-media-text__content {
+    position: relative;
+    bottom: 100px;
+}
+.heading p{
     width: 330px;
-height: 31px;
-
-/* Semibold font 2/Semibold font - 24 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 130%;
-padding-left: 40px;
-color:rgba(0, 0, 0, 0.9);
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-}
-.Frame_19_text2{
-    
-width: 270px;
 height: 66px;
-
-/* sub font/Sub font - 16 */
-
 font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 140%;
-padding-left: 40px;/* or 22px */
-
-
-/* black colour/Black - 06 */
-
 color: rgba(0, 0, 0, 0.6);
-
-
-/* Inside auto layout */
-
 flex: none;
 order: 1;
 flex-grow: 0;
 }
-#bicalendar-check{
-position: absolute;
-}
-
 .Frame_22_2{
     display: flex;
 flex-direction: column;
@@ -1610,23 +1501,21 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
-.Group2_text1{
-    
+.Group2_text1 {
     width: 330px;
     height: 52px;
-    
-    /* bold/Bold font - 40 */
-    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 130%;
     color: rgba(0, 0, 0, 0.9);
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin-left: 5px
+    margin-left: 5px;
+    position: relative;
+    top: 5px;
 }
 .text2_{
     display: flex;
@@ -1641,7 +1530,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
-.Group2_text2{
+.Group2_text1 p {
     width: 290px;
     height: 44px;
     font-family: 'Inter';
@@ -1652,77 +1541,32 @@ flex-grow: 0;
     color: rgba(0, 0, 0, 0.6);
     flex: none;
     order: 1;
-    position: absolute;
+    position: relative;
     left: 5px;
+    top: 30px;
+    padding: 10px;
+}
+.wp-block-media-text__content {
+    position: relative;
+    left: 45px;
+    bottom: 24px;
+    font-weight: bold;
 }
 .Frame_67{
     display: flex;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-gap: 36px;
-
-width: 290px;
-height: 174px;
-position: absolute;
-    top: 170px;
-    
+gap: 30px;
+width: 273px;
+height: 144px;
 flex: none;
 order: 1;
 flex-grow: 0;
-left: 5px;
+position: relative;
+left: 20px;
 }
-.Frame_65{
-    display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 20px;
 
-width: 183px;
-height: 24px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-}
-.icon1{
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 10px;
-
-width: 24px;
-height: 24px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-}
-.icontext{
-    width: 139px;
-height: 22px;
-
-/* sub font/Sub font - 16 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 17px;
-line-height: 140%;
-color: #000000;
-
-flex: none;
-order: 1;
-flex-grow: 0;
-}
 .Frame_66{
     display: flex;
 flex-direction: row;
@@ -1740,40 +1584,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
-.icon2{
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 10px;
 
-width: 24px;
-height: 24px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-}
-.icontext1{
-    width: 139px;
-height: 22px;
-
-/* sub font/Sub font - 16 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 17px;
-line-height: 140%;
-color: #000000;
-
-flex: none;
-order: 1;
-flex-grow: 0;
-}
 .Frame_67_2{
     display: flex;
 flex-direction: row;
@@ -1791,61 +1602,15 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
-.icon3{
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 10px;
 
-width: 24px;
-height: 24px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+ul.wp-block-social-links {
+    position: relative;
+    left: 0px;
 }
-.icontext2{
- 
-height: 22px;
-
-/* sub font/Sub font - 16 */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 17px;
-line-height: 140%;
-color: #000000;
-
-flex: none;
-order: 1;
-flex-grow: 0;
+span.wp-block-social-link-label.screen-reader-text {
+    display: none;
 }
-.Frame_49_icon{
-    display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 26px;
 
-width: 144px;
-height: 24px;
-
-position: absolute;
-    top: 400px;
-/* Inside auto layout */
-
-flex: none;
-order: 2;
-flex-grow: 0;
-}
-#icon4{
- color: #00ae9a;
-}
 .Frame_69{
  display: flex;
 flex-direction: column;
@@ -2478,9 +2243,7 @@ position: absolute;
     flex-wrap: wrap;
    
 }
-
-
-.Frame_59 {
+ul.wp-block-categories-list.wp-block-categories li{
     box-sizing: border-box;
     align-items: flex-start;
     padding: 4px 12px;
@@ -2492,11 +2255,21 @@ position: absolute;
     flex: none;
     order: 1;
     flex-grow: 0;
-    /* position: absolute; */
+    
     position: relative;
-    left: 25px;
-    top: 3px;
+   
 }
+ul.wp-block-categories-list.wp-block-categories {
+    position: absolute;
+    resize: 0px;
+    top: 0px;
+
+    left: 10px;
+    top: 2px;
+}
+
+
+
 
 .Frame_59_t1{
     width: 83px;
