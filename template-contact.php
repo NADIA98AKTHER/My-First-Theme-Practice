@@ -11,36 +11,22 @@ get_header();
     <div class="Frame_68">
         <div class="Group2">
             <diV class="text1_">
-                <p class="Group2_text1"><?php the_content();?></p>
+                <div class="Group2_text1"><?php dynamic_sidebar('Heading');?></div>
 
             </diV>
-            <diV class="text2_">
-                <p class="Group2_text2"><?php the_content(); ?></p>
-
-            </diV>
+           
 
 
         </div>
         <div class="Frame_67">
-           <div class="Frame_65">
-            <img class="icon1" src="<?php echo get_template_directory_uri(); ?>/images/bi_telephone.png" >
-             <p class="icontext">+8801795929299 </p>
-           </div>
-           <div class="Frame_66">
-            <img class="icon2" src="<?php echo get_template_directory_uri(); ?>/images/bi_envelope.png" >
-             <p class="icontext1">nadia98akther@gmail.com</p>
-           </div>
-           <div class="Frame_67_2">
-            <img class="icon3" src="<?php echo get_template_directory_uri(); ?>/images/Group (2).png" >
-             <p class="icontext2">48 Kadamtala, Basabo, Dhaka</p>
-           </div>
-        </div>
-        <div class="Frame_49_icon">
-            <img id="icon4" src="<?php echo get_template_directory_uri(); ?>/images/cib_facebook-f.png">
-            <img id="icon5" src="<?php echo get_template_directory_uri(); ?>/images/cib_linkedin-in.png">
-            <img id="icon6" src="<?php echo get_template_directory_uri(); ?>/images/cib_instagram.png">
-            <img id="icon7" src="<?php echo get_template_directory_uri(); ?>/images/cib_twitter.png">
-
+ 
+           <?php dynamic_sidebar('Phone'); ?>
+         
+          
+        
+      
+            
+      
 
 
 
