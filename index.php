@@ -95,19 +95,15 @@ wp_reset_postdata();
          
      
       <div class="col-xs-7">
-      <?php 
-     $category=get_terms(['taxonomy'=>'category']);
-
-     foreach($category as $categoryData){
-      ?>
+     
        <div class="Frame_59">
-          
+   
     
-        <a href="<?php echo get_category_link($categoryData->term_id);?>"><div class="Frame_59_t1"><?php echo $categoryData->name?></div>
+        <div class="Frame_59_t1"><?php dynamic_sidebar('Add');?></div>
       
         </div>
        
-        <?php } ?>
+     
       </div>
 
      
