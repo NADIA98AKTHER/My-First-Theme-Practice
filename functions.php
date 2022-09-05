@@ -148,13 +148,7 @@ register_sidebar(
                 'description' =>_('Appears in the sidebar',)
             )
     );
-register_sidebar(
-        array(
-            'name' =>"Addon_list",
-            'id'=>'Addon_list',
-            'description' =>_('Appears in the sidebar',)
-        )
-);
+
 register_sidebar(
     array(
         'name' =>"Phone",
@@ -178,8 +172,43 @@ register_sidebar(
 );
 register_sidebar(
     array(
-        'name' =>"Addon_list",
-        'id'=>'Addon_list',
+        'name' =>"Addon_list1",
+        'id'=>'Addon_list1',
+        'description' =>_('Appears in the sidebar',)
+    )
+);
+register_sidebar(
+    array(
+        'name' =>"Addon_list2",
+        'id'=>'Addon_list2',
+        'description' =>_('Appears in the sidebar',)
+    )
+);
+register_sidebar(
+    array(
+        'name' =>"Addon_list3",
+        'id'=>'Addon_list3',
+        'description' =>_('Appears in the sidebar',)
+    )
+);
+register_sidebar(
+    array(
+        'name' =>"Addon_list4",
+        'id'=>'Addon_list4',
+        'description' =>_('Appears in the sidebar',)
+    )
+);
+register_sidebar(
+    array(
+        'name' =>"Addon_list5",
+        'id'=>'Addon_list5',
+        'description' =>_('Appears in the sidebar',)
+    )
+);
+register_sidebar(
+    array(
+        'name' =>"Addon_list6",
+        'id'=>'Addon_list6',
         'description' =>_('Appears in the sidebar',)
     )
 );
@@ -187,6 +216,13 @@ register_sidebar(
     array(
         'name' =>"social",
         'id'=>'social',
+        'description' =>_('Appears in the sidebar',)
+    )
+); 
+register_sidebar(
+    array(
+        'name' =>"pricing",
+        'id'=>'pricing',
         'description' =>_('Appears in the sidebar',)
     )
 );  
