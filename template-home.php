@@ -102,10 +102,10 @@ get_header();
 
     </div>
     <div class="Frame_25">
-        <div class="Frame_22">
+        
          <div class="Frame_21">
             <div class="bicalendar-check">
-                <div class="heading"><?php dynamic_sidebar('Addon_list');?></div>
+            <div class="heading"><?php dynamic_sidebar('Addon_list1');?></div>
            
             </div>
 
@@ -115,79 +115,55 @@ get_header();
             
 
         
-         </div>
+        
          <div class="Frame_21">
             <div class="bicalendar-check">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/Group.png">
-
+            <div class="heading"><?php dynamic_sidebar('Addon_list2');?></div>
             </div>
-            <div class="Frame_19_2nd">
-                <p class="Frame_19_text1">WooCommerce Booking</p>
-                <p class="Frame_19_text2">Our booking add-on is absolutely simple and straightforward. It allows you to create a bookable product absolutely free.</p>
-
-            </div>
+          
             
 
         
          </div>
          
         </div>
-        <div class="Frame_22_2">
+       
             <div class="Frame_21">
                <div id="bicalendar-check">
-                   <img src="<?php echo get_template_directory_uri(); ?>/images/Group.png">
+               <div class="heading"><?php dynamic_sidebar('Addon_list3');?></div>
    
                </div>
-               <div class="Frame_19_2nd">
-                   <p class="Frame_19_text1">WooCommerce Booking</p>
-                   <p class="Frame_19_text2">Our booking add-on is absolutely simple and straightforward. It allows you to create a bookable product absolutely free.</p>
-   
-               </div>
+              
                
    
            
-            </div>
+          
             <div class="Frame_21">
                <div id="bicalendar-check">
-                   <img src="<?php echo get_template_directory_uri(); ?>/images/Group.png">
-   
+               <div class="heading"><?php dynamic_sidebar('Addon_list4');?></div>
                </div>
-               <div class="Frame_19_2nd">
-                   <p class="Frame_19_text1">WooCommerce Booking</p>
-                   <p class="Frame_19_text2">Our booking add-on is absolutely simple and straightforward. It allows you to create a bookable product absolutely free.</p>
-   
-               </div>
-               
+             
    
            
             </div>
            </div>
-           <div class="Frame_22_3">
+           
             <div class="Frame_21">
                <div id="bicalendar-check">
-                   <img src="<?php echo get_template_directory_uri(); ?>/images/Group.png">
+               <div class="heading"><?php dynamic_sidebar('Addon_list5');?></div>
    
                </div>
-               <div class="Frame_19_2nd">
-                   <p class="Frame_19_text1">WooCommerce Booking</p>
-                   <p class="Frame_19_text2">Our booking add-on is absolutely simple and straightforward. It allows you to create a bookable product absolutely free.</p>
-   
-               </div>
+              
                
    
            
-            </div>
+            
             <div class="Frame_21">
                <div id="bicalendar-check">
-                   <img src="<?php echo get_template_directory_uri(); ?>/images/Group.png">
+               <div class="heading"><?php dynamic_sidebar('Addon_list6');?></div>
    
                </div>
-               <div class="Frame_19_2nd">
-                   <p class="Frame_19_text1">WooCommerce Booking</p>
-                   <p class="Frame_19_text2">Our booking add-on is absolutely simple and straightforward. It allows you to create a bookable product absolutely free.</p>
-   
-               </div>
-               
+            
    
            
             </div>
@@ -279,7 +255,7 @@ get_header();
 
 
 
-    <div id="Frame_28_2">
+   <!--- <div id="Frame_28_2">
      <div class="Frame_33">
         <p class="Frame33_text1">1 Site</p>
      <div class="Frame_31_1">
@@ -421,7 +397,73 @@ get_header();
 
  
 </div>
+</div>-->
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--<div class="con1">
+
+ <div class="col-xs-5">
+ 
+-->
+<?php dynamic_sidebar('pricing');?>
+   
+      <div class="grid1"> 
+    
+    <!-- <div class="Frame_33"> 
+      <div class="Frame_33_text1"></div>
+    <div class="Description">
+        <div class="des11">
+    <i class="fa fa-check-circle" style="font-size:23px;color:rgb(249, 81, 81)"></i>
+    <p class="des1"></p>
+    </div>
+    <div class="des12">
+    <i class="fa fa-check-circle" style="font-size:23px;color:rgb(249, 81, 81)"></i>
+    <p class="des1"></p>
+
 </div>
+<div class="$299year">
+            <p><b class="price"></b> <b class="year"></b></p>
+            <div class="Frame_12_2">
+             <p class="Frame12_2_button"></p>
+
+            </div>
+            
+
+
+        
+    </div>
+    </div>
+   
+      </div>
+      </div>
+  
+    </div>-->
+
+    
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  <!--slideshow-->
  <div class="Frame_52">
     <div class="Frame_35_35_35">
