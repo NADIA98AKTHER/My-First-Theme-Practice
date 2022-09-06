@@ -227,4 +227,52 @@ register_sidebar(
     )
 );  
 ?>
+<?php 
+//color option
+function mytheme_customize_register($wp_customize){
+    $wp_customize->add_section('header_area',array(
+    
+        'title' =>__( 'Header' ),
+        'description' =>__( 'Add color'),
+       
+    ));
+    $wp_customize->add_setting('n_header_color',array(
+        'default'   => '',
+        'transport' => 'refresh',
+      ) );
+      $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'n_header_color', array(
+        'section' => 'header_area',
+        'label'   =>  'header color',
+        'setting' => 'n_header_color',
+      ) ) );
 
+
+
+      //Menu position option
+
+      $wp_customize->add_section('menu_option',array(
+    
+        'title' =>__( 'Menu Position', 'nadiaakther'),
+        'description' =>__( 'You Can Change Your Menu Position'),
+       
+    ));
+    $wp_customize->add_setting('menu_position',array(
+        'default'   => 'right_menu',
+      
+      ) );
+      $wp_customize->add_control('menu_position', array(
+        'section' => 'menu_option',
+        'label'   =>  'Menu Position',
+        'setting' => 'menu_position',
+        'description' =>( 'Select Your Menu Position'),
+        'type' => 'radio',
+        'choices'=> array(
+            'left_menu' => 'Left Menu',
+            'right_menu' => 'Right Menu',
+            'centre_menu' => 'Centre Menu',
+        )
+      ) ) ;
+  
+}
+add_action('customize_register', 'mytheme_customize_register');
+?>
