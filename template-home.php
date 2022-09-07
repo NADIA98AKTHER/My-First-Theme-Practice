@@ -11,7 +11,7 @@ get_header();
     <div class="Frame_11">
        <div class="Frame_15">
          <div class="text1"><?php dynamic_sidebar('home_content1');?></div>
-       
+   
          
        </div>
        <!----buttton-->
@@ -182,8 +182,8 @@ get_header();
 
 <div class="Frame_36">
     <div class="Frame_35_customer">
-        <p class="frame35_text1">What Our Customer Say</p>
-        <p class="frame35_text2">See what it's like to be a customer of SpringDevs</p>
+        <h1>What Our Customer Say</h1>
+        <p >See what it's like to be a customer of SpringDevs</p>
     </div>
 
     <div class="Frame_37">
@@ -248,7 +248,7 @@ get_header();
 
     <div class="Frame_51">
   <div class="Frame_15_3">
-   <p class="Frame15_2_text1">SpringDevs Pricing</p>
+   <h1>SpringDevs Pricing</h1>
   <p class="Frame15_2_text2">All of these license includes Free Plugin Update and Priority Support</p>
    </div>
    <div class="pricing_row">
@@ -467,7 +467,7 @@ get_header();
  <!--slideshow-->
  <div class="Frame_52">
     <div class="Frame_35_35_35">
-        <p class="Frame_35_35_35_t">Resources for WooCommerce Store Owners</p>
+        <h1>Resources for WooCommerce Store Owners</h1>
         <p class="Frame_35_35_35_t1">Tips, tricks and eCommerce inspiration from WooCommerce experts.</p>
 
 
