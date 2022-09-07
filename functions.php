@@ -8,7 +8,12 @@ register_nav_menus(
    
 ) ;
 
-
+function theme_styles(){ 
+    // Load all of the styles that need to appear on all pages
+    wp_enqueue_style( 'main', get_template_directory_uri() . '/style.css' );
+    wp_enqueue_style( 'custom', get_template_directory_uri() . '/css/custom.css' ); 
+    }
+     add_action('wp_enqueue_scripts', 'theme_styles');
 
 
 function themename_custom_logo_setup() {
@@ -230,24 +235,7 @@ register_sidebar(
 <?php 
 //color option
 function mytheme_customize_register($wp_customize){
-    $wp_customize->add_section('header_area',array(
     
-        'title' =>__( 'Header' ),
-        'description' =>__( 'Add color'),
-       
-    ));
-    $wp_customize->add_setting('n_header_color',array(
-        'default'   => '',
-        'transport' => 'refresh',
-      ) );
-      $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'n_header_color', array(
-        'section' => 'header_area',
-        'label'   =>  'header color',
-        'setting' => 'n_header_color',
-      ) ) );
-
-
-
       //Menu position option
 
       $wp_customize->add_section('menu_option',array(
@@ -272,7 +260,100 @@ function mytheme_customize_register($wp_customize){
             'centre_menu' => 'Centre Menu',
         )
       ) ) ;
-  
-}
-add_action('customize_register', 'mytheme_customize_register');
+    
+    //Theme Color
+
+        }
+        ?>
+
+
+
+
+
+
+
+<?php
+function mytheme_customize_register2( $wp_customize ) {
+//H2 color
+    $wp_customize->add_section( 'new1' , array(
+        'title'      => __( 'Color', 'mytheme' ),
+        
+    ) );
+    $wp_customize->add_setting( 'h2_color' , array(
+        'default'   => '#000000',
+        'transport' => 'refresh',
+    ) );
+    $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'h2_color', array(
+        'label'      => __( 'H2 Color', 'mytheme' ),
+        'section'    => 'new1',
+        'settings'   => 'h2_color',
+    ) ) );
+
+    //h1 color
+    $wp_customize->add_setting( 'h1_color' , array(
+        'default'   => '#000000',
+        'transport' => 'refresh',
+    ) );
+    $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'h1_color', array(
+        'label'      => __( 'H1 Color', 'mytheme' ),
+        'section'    => 'new1',
+        'settings'   => 'h1_color',
+    ) ) );
+
+
+    //Background color
+
+    $wp_customize->add_setting('bg_color', array(
+        'default'  => '#ffffff',
+      
+      ) );
+      $wp_customize->add_control( new WP_Customize_Color_Control($wp_customize, 'bg_color', array( 
+        'section' => 'new1',
+        'label'   =>  'Background Color',
+        'setting' => 'bg_color',
+      )));
+
+
+
+      //Menu Color
+    
+      $wp_customize->add_setting('menu_color', array(
+        'default'  => 'rgba(0, 0, 0, 0.6)',
+      
+      ) );
+      $wp_customize->add_control( new WP_Customize_Color_Control($wp_customize, 'menu_color', array( 
+        'section' => 'new1',
+        'label'   =>  'Menu Color',
+        'setting' => 'menu_color',
+      )));
+
+
+
+      //Menu Hover Color
+      $wp_customize->add_setting('menu_hover_color', array(
+        'default'  => '#ff4500',
+      
+      ) );
+      $wp_customize->add_control( new WP_Customize_Color_Control($wp_customize, 'menu_hover_color', array( 
+        'section' => 'new1',
+        'label'   =>  'Menu Hover Color',
+        'setting' => 'menu_color',
+      )));
+
+
+ }
+ add_action( 'customize_register', 'mytheme_customize_register2' );
+ function mytheme_customize_css()
+ {
+     ?>
+          <style type="text/css">
+              h2 { color: <?php echo get_theme_mod('h2_color', '#000000'); ?>; }
+              h1 { color: <?php echo get_theme_mod('h1_color', '#000000'); ?>; }
+              body{background: <?php echo get_theme_mod('bg_color', '#000000'); ?>; } 
+              ul li a{ color: <?php echo get_theme_mod('menu_color', '#000000'); ?>; }
+              ul li a:hover{ color: <?php echo get_theme_mod('menu_hover_color', '#000000'); ?>; }
+          </style>
+     <?php
+ }
+ add_action( 'wp_head', 'mytheme_customize_css');
 ?>
