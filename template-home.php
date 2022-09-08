@@ -38,13 +38,6 @@ get_header();
     </div>
 
 
-
-
-
-</div>
-
-
-
 <!----------total reven image---------->
 
 <div class="Frame_16">
@@ -55,10 +48,11 @@ get_header();
 
   </div>
   
- 
-
-
 </div>
+
+
+
+
 
 <!-----------Logo----------->
 
@@ -94,7 +88,7 @@ get_header();
 <!-----------FEATURED PLUGIN---------->
 
 
-<div class="Frame_26">
+  <div class="Frame_26">
     
     <div class="Frame_15_2nd">
         <div class="Figma_15_text1"><?php dynamic_sidebar('Featured plugin');?></div>
@@ -174,8 +168,7 @@ get_header();
         </div>
 
 
-
-    </div>
+ </div>
 
 
     <!-----------Customer SAY---------->
@@ -246,204 +239,22 @@ get_header();
 <!----------Pricing------------------->
 
 
-    <div class="Frame_51">
-  <div class="Frame_15_3">
-   <h1>SpringDevs Pricing</h1>
-  <p class="Frame15_2_text2">All of these license includes Free Plugin Update and Priority Support</p>
-   </div>
-   <div class="pricing_row">
-
-
-
-   <!--- <div id="Frame_28_2">
-     <div class="Frame_33">
-        <p class="Frame33_text1">1 Site</p>
-     <div class="Frame_31_1">
-        <div class="Frame_29_4">
-            <i class="fa fa-check-circle" style="font-size:19px;color:rgb(249, 81, 81)"></i>
-           <p class="Frame29_4_text1">1 Site license</p>
-        </div>
-        <div class="Frame_31_3">
-            <i class="fa fa-check-circle" style="font-size:19px;color:rgb(249, 81, 81)"></i>
-           <p class="Frame31_3_text1">Updates for 1 Year</p>
-        </div>
-        <div class="Frame_32_3">
-            <i class="fa fa-check-circle" style="font-size:19px;color:rgb(249, 81, 81)"></i>
-           <p class="Frame31_4_text1">Priority Email Support</p>
-        </div>
-        <div class="Frame_30_4">
-            <i class="fa fa-check-circle" style="font-size:19px;color:rgb(249, 81, 81)"></i>
-           <p class="Frame29_4_text1">1 Free Installation Service</p>
-        </div>
-        <div class="$299year">
-            <p><b class="price">$299</b> <b class="year">/Year</b></p>
-            <div class="Frame_12_2">
-             <p class="Frame12_2_button">Buy Now</p>
-
-            </div>
-            
-
-
-        </div>
-    </div>
-    </div>
-
-  
-
-  </div>
-
-
-  <div class="Frame_29_29">
-    <div class="Frame_33_33">
-       <div class="Frame_35_35">
-        <p class="Frame33_text1">5 Sites</p>
-        <div class="Frame_32_32">
-         <p class="Frame_32_32_t">Trending</p>
-        </div>
-        
+<div class="Frame_51">
+      <div class="Frame_15_3">
+          <h1>SpringDevs Pricing</h1>
+          <p class="Frame15_2_text2">All of these license includes Free Plugin Update and Priority Support</p>
        </div>
-       <div class="Frame_31_1">
-        <div class="Frame_29_4">
-            <i class="fa fa-check-circle" style="font-size:19px;color:rgb(249, 81, 81)"></i>
-           <p class="Frame29_4_text1">5 Sites Licenses</p>
-        </div>
-        <div class="Frame_31_3">
-            <i class="fa fa-check-circle" style="font-size:19px;color:rgb(249, 81, 81)"></i>
-           <p class="Frame31_3_text1">Updates for 1 Year</p>
-        </div>
-        <div class="Frame_32_3">
-            <i class="fa fa-check-circle" style="font-size:19px;color:rgb(249, 81, 81)"></i>
-           <p class="Frame31_4_text1">Priority Email Support</p>
-        </div>
-        <div class="Frame_30_4">
-            <i class="fa fa-check-circle" style="font-size:19px;color:rgb(249, 81, 81)"></i>
-           <p class="Frame29_4_text1">2 Free Installation Service</p>
-        </div>
-        <div class="$299year">
-            <p><b class="price">$399</b> <b class="year">/Year</b></p>
-            <div class="Frame_12_2">
-             <p class="Frame12_2_button">Buy Now</p>
-
-            </div>
-            
-
-
-        
-    </div>
-       
-  
-  </div>
-
-
- </div>
-
-
- 
-    </div>
-    <div class="Frame_30_30">
-        <div class="Frame_33_33_33">
-            <div class="Frame_35_35">
-                <p class="Frame33_text1">25 Sites</p>
-                
-               </div>
-
-                  <div class="Frame_31_1">
-        <div class="Frame_29_4">
-            <i class="fa fa-check-circle" style="font-size:19px;color:rgb(249, 81, 81)"></i>
-           <p class="Frame29_4_text1">25 Sites Licenses</p>
-        </div>
-        <div class="Frame_31_3">
-            <i class="fa fa-check-circle" style="font-size:19px;color:rgb(249, 81, 81)"></i>
-           <p class="Frame31_3_text1">Updates for 1 Year</p>
-        </div>
-        <div class="Frame_32_3">
-            <i class="fa fa-check-circle" style="font-size:19px;color:rgb(249, 81, 81)"></i>
-           <p class="Frame31_4_text1">Priority Email Support</p>
-        </div>
-        <div class="Frame_30_4">
-            <i class="fa fa-check-circle" style="font-size:19px;color:rgb(249, 81, 81)"></i>
-           <p class="Frame29_4_text1">25 Free Installation Service</p>
-        </div>
-        <div class="$299year">
-            <p><b class="price">$599</b> <b class="year">/Year</b></p>
-            <div class="Frame_12_2">
-             <p class="Frame12_2_button">Buy Now</p>
-
-            </div>
-            
-
-
-        
-    </div>
-       
-  
-  </div>
-                
-    
-    
-            </div>
-        </div>
-       
-  
-  
-  </div>
-
-
-
-
-
-
-  
-
- 
-</div>
-</div>-->
-
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!--<div class="con1">
-
- <div class="col-xs-5">
- 
--->
-<?php dynamic_sidebar('pricing');?>
+       <div class="pricing_row">
+            <?php dynamic_sidebar('pricing');?>
    
-      <div class="grid1"> 
-    
-    <!-- <div class="Frame_33"> 
-      <div class="Frame_33_text1"></div>
-    <div class="Description">
-        <div class="des11">
-    <i class="fa fa-check-circle" style="font-size:23px;color:rgb(249, 81, 81)"></i>
-    <p class="des1"></p>
-    </div>
-    <div class="des12">
-    <i class="fa fa-check-circle" style="font-size:23px;color:rgb(249, 81, 81)"></i>
-    <p class="des1"></p>
+       </div>
+       <div class="grid1"> 
+       </div>
 
-</div>
-<div class="$299year">
-            <p><b class="price"></b> <b class="year"></b></p>
-            <div class="Frame_12_2">
-             <p class="Frame12_2_button"></p>
-
-            </div>
-            
-
-
-        
-    </div>
-    </div>
    
-      </div>
-      </div>
-  
-    </div>-->
-
     
-    <div>
-
+    
+</div>
 
 
 
