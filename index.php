@@ -1,7 +1,9 @@
 <?php
 
 get_header();
-
+if(isset($_POST['Subscribe'])){
+  echo"s";
+}
 ?>
 <!-------Resource--------->
 <div class="resource">
@@ -10,17 +12,19 @@ get_header();
            <div class="Frame_15_t1"><?php dynamic_sidebar('blog_content1');?></div>
           
         </div>
+        <form method="post">
         <div class="Frame_55">
             <div class="Frame_54_resource">
-                <p class="Frame_54_t">Enter Name</p>
+                <input type="text" name="ntitle" class="Frame_54_t">Enter Name</p>
 
             </div>
             <div class="t1_resource">
-                <input class="btn btn-primary" type="submit" value="Subscribe">
+                <button name="Subscribe" type="submit" value="Subscribe">Subscribe</button>
 
         </div>
 
         </div>
+</form>
         <div class="Frame_57">
             <p class="follow">Follow us on</p>
             <div class="Frame_49_icon_i">
