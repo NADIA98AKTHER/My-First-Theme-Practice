@@ -88,84 +88,59 @@ get_header();
 <!-----------FEATURED PLUGIN---------->
 
 
-  <div class="Frame_26">
+<div class="Frame_26">
     
     <div class="Frame_15_2nd">
-        <div class="Figma_15_text1"><?php dynamic_sidebar('Featured plugin');?></div>
-        
-
+        <div class="Figma_15_text1"><?php dynamic_sidebar('Featured plugin');?>
+        </div>
     </div>
-    <div class="Frame_25">
+  <div class="Frame_25">
         
-         <div class="Frame_21">
-            <div class="bicalendar-check">
-            <div class="heading"><?php dynamic_sidebar('Addon_list1');?></div>
-           
-            </div>
-
+  <div class="Frame_46_46">
+                <div class="Frame_44_44">
+                     <?php dynamic_sidebar('Addon_list1');?>  
+                  
+                </div>
+                <div class="Frame_44_44">
+                           <?php dynamic_sidebar('Addon_list2');?>  
+                </div>
+                <div class="Frame_44_44">
+                           <?php dynamic_sidebar('Addon_list3');?>  
+                </div>
              
-
-           
-            
-
-        
-        
-         <div class="Frame_21">
-            <div class="bicalendar-check">
-            <div class="heading"><?php dynamic_sidebar('Addon_list2');?></div>
             </div>
-          
             
-
-        
-         </div>
-         
-        </div>
        
-            <div class="Frame_21">
-               <div id="bicalendar-check">
-               <div class="heading"><?php dynamic_sidebar('Addon_list3');?></div>
-   
-               </div>
-              
-               
-   
            
-          
-            <div class="Frame_21">
-               <div id="bicalendar-check">
-               <div class="heading"><?php dynamic_sidebar('Addon_list4');?></div>
-               </div>
-             
-   
-           
-            </div>
-           </div>
-           
-            <div class="Frame_21">
-               <div id="bicalendar-check">
-               <div class="heading"><?php dynamic_sidebar('Addon_list5');?></div>
-   
-               </div>
-              
-               
-   
-           
-            
-            <div class="Frame_21">
-               <div id="bicalendar-check">
-               <div class="heading"><?php dynamic_sidebar('Addon_list6');?></div>
-   
-               </div>
-            
-   
-           
-            </div>
-           </div>
         
         
 
-        </div>
+       
+    </div>
+    <div class="Frame_46_461">
+                <div class="Frame_44_44">
+                     <?php dynamic_sidebar('Addon_list4');?>  
+                  
+                </div>
+                <div class="Frame_44_44">
+                           <?php dynamic_sidebar('Addon_list5');?>  
+                </div>
+                <div class="Frame_44_44">
+                           <?php dynamic_sidebar('Addon_list6');?>  
+                </div>
+             
+            </div>
+            
+       
+           
+        
+        
+
+       
+    </div>
+    
+    
+    
 
 
  </div>
