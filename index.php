@@ -91,9 +91,7 @@ wp_reset_postdata();
 <!--------Blog----------->
 <div class="Frame_63">
     <div class="Frame_60">
-       <div class="Frame_58">
-        <p class="Frame_58_t1">All</p>
-       </div>
+    
        <div class="con2">
       <div class="cat">
          
