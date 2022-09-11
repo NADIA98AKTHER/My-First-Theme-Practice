@@ -56,7 +56,7 @@ body {
     gap: 30px;
     position: absolute;
     right: 170px;
-    top: 30px;
+    top: 38px;
 }
 .col-md-3 {
     display: flex;
@@ -105,7 +105,6 @@ li a:hover {
 }
 .container {
     width: 1530px;
-    background: beige;
     height: 650px;
     position: relative;
     bottom: 30px;
@@ -293,8 +292,8 @@ flex-grow: 0;
 .Frame_16 {
     position: relative;
     width: 608px;
-    left: 920px;
-    top: 100px;
+    left: 750px;
+    top: 120px;
 }
 
 .Frame_18{
@@ -1670,7 +1669,7 @@ color: #000000;
 .col {
     position: relative;
     left: 60px;
-    padding-top: 20px;
+ 
 }
 .Frame_56{
     display: flex;
@@ -1683,8 +1682,8 @@ height: 386px;
 flex: none;
 order: 0;
 flex-grow: 0;
-position: absolute;
-left: 180px;
+position: relative;
+left: 30px;
 
 }
 .Frame_15_resource{
@@ -1707,13 +1706,17 @@ flex-grow: 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 130%;
     color: rgba(0, 0, 0, 0.9);
     flex: none;
     order: 0;
     flex-grow: 0;
+    position: relative;
+    top: 70px;
 }
+
+
 .Frame_15_t1 p{
     /* font-size: 16px; */
     width: 330px;
@@ -2114,11 +2117,9 @@ position: absolute;
 }
 .con2 {
     position: relative;
-    left: 120px;
-    bottom: 35px;
-    width: 800px;
-    height: 35px;
-   
+    width: 1520px;
+    left: 0px;
+    top: 40px;
 }
 .col-xs-7 {
     display: flex;
@@ -2140,7 +2141,7 @@ ul.wp-block-categories-list.wp-block-categories li{
     flex: none;
     order: 1;
     flex-grow: 0;
-    
+    left: 130px;
     position: relative;
    
 }
@@ -2281,12 +2282,14 @@ border-radius: 8px;
     padding: 10px;
     border-radius: 10px;
     height: 500px;
+    position: relative;
+    top: 80px;
 }
 .con {
     width: 1200px;
-    position: absolute;
+    position: relative;
     top: 250px;
-    left: 200px;
+    /* left: 200px; */
     height: 500px;
 }
 
@@ -2300,15 +2303,17 @@ border-radius: 8px;
 }
 .pagination {
     display: inline-block;
+    padding: 30px;
 }
   
 .pagination a {
-    color:orangered;
+    color:rgb(0, 102, 255);
     float: left;
     padding: 8px 16px;
     text-decoration: none;
     position: relative;
-    top: 30px;
+
+   
 }
   
 /*single.php*/
@@ -2370,9 +2375,13 @@ img.img_single {
     background: #FFFFFF;
     box-shadow: 0px 100px 80px rgb(0 0 0 / 7%), 0px 41.7776px 33.4221px rgb(0 0 0 / 5%), 0px 22.3363px 17.869px rgb(0 0 0 / 4%), 0px 12.5216px 10.0172px rgb(0 0 0 / 4%), 0px 6.6501px 5.32008px rgb(0 0 0 / 3%), 0px 2.76726px 2.21381px rgb(0 0 0 / 2%);
     border-radius: 8px;
-    height: 1150px;
+    height: 650px;
     font-size: 30px;
+    left: 350px;
+    width: 800px;
+    padding: 30px;
 }
+
 .comment-reply-title{
     color: #ae005e;
 }
