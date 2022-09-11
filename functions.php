@@ -264,6 +264,8 @@ function mytheme_customize_register($wp_customize){
     //Theme Color
 
         }
+         add_action( 'customize_register', 'mytheme_customize_register' );
+
         ?>
 
 
